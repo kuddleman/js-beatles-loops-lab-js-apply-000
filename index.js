@@ -7,3 +7,11 @@ function theBeatlesPlay(arrayMus, arrayInst) {
   }
   return newArr;
 }
+
+function johnLennonFacts(facts) {
+  const newArr = [];
+  for ( let fact of facts) {
+    newArr.push(`${fact}!!!`);
+  }
+  return newArr;
+}

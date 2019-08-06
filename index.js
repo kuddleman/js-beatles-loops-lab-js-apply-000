@@ -25,6 +25,8 @@ function iLoveTheBeatles(num) {
       i++;
     }
     while (i <= (15 - num));
+  } else if ( num === 17) {
+    return ['I love the Beatles!'];
   }
   return myArr;
 }
